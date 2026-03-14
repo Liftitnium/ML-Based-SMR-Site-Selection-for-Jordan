@@ -1,0 +1,51 @@
+══════════════════════════════════════════════════════════════
+  JORDAN SMR SITE SELECTION — SUMMARY REPORT
+══════════════════════════════════════════════════════════════
+
+CRS:       EPSG:32636
+Cell size: 1000 m × 1000 m
+
+DATASET STATUS
+────────────────────────────────────────
+  srtm              : OK
+  gem               : OK
+  hydorivers        : OK
+  hydrolakes        : OK
+  hydrobasins       : OK
+  gsw               : OK
+  ghsl              : OK
+  era5              : OK
+  powerplants       : OK
+  osm               : OK
+  gadm              : MISSING → using OSM boundary
+  aquastat          : OK
+
+GRID
+────────────────────────────────────────
+  Total Jordan cells : 151,156
+  Total Jordan area  : ~151,156 km²
+
+FILTERING
+────────────────────────────────────────
+  Seismic PGA > 0.3g: 13,515 eliminated
+  Population density > 1000 p/km²: 1,596 eliminated
+  Water occurrence > 80 (permanent water): 1,531 eliminated
+  Slope > 18°: 1,348 eliminated
+  ─────────────────────────────────────────
+  Viable candidates : 133,166 (88.1%)
+  Viable area       : ~133,166 km²
+
+FEATURE STATISTICS (viable cells only)
+────────────────────────────────────────
+  elevation_m              : mean=793.956  std=184.768  min=-177.473  max=1753.437
+  slope_deg                : mean=2.892  std=2.375  min=0.468  max=17.996
+  pga                      : mean=0.084  std=0.057  min=0.022  max=0.300
+  dist_river_km            : mean=1.553  std=2.201  min=0.002  max=52.765
+  dist_lake_km             : mean=69.448  std=47.058  min=0.010  max=202.351
+  dist_dead_sea_km         : mean=211.188  std=93.281  min=10.755  max=432.512
+  water_occurrence         : mean=0.027  std=1.202  min=0.000  max=79.050
+  population_density       : mean=10.891  std=66.927  min=0.000  max=999.579
+  dist_power_km            : mean=53.251  std=27.150  min=0.109  max=125.869
+  dist_road_km             : mean=40.333  std=33.625  min=0.002  max=152.565
+  mean_temp_c              : mean=19.171  std=1.089  min=14.440  max=22.872
+  precip_mm_annual         : mean=77.265  std=46.287  min=19.209  max=393.700
