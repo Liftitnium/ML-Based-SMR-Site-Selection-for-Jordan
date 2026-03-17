@@ -1,8 +1,3 @@
-# Cancel the current git add first (Ctrl+C)
-
-# Create .gitignore properly
-cat > .gitignore << 'EOF'
-# Large geospatial data
 datasets/srtm/
 datasets/osm/
 output/_extracted/
@@ -17,15 +12,4 @@ __pycache__/
 .ipynb_checkpoints/
 EOF
 
-# Clear git's index (reset what was being added)
-git rm -r --cached . 2>/dev/null || true
 
-# Now add only what's in .gitignore-filtered
-git add .
-
-# Commit
-git commit -m "Initial commit: Jordan SMR pipeline - data prep complete"
-
-# Push
-git branch -M main
-git push -u origin main

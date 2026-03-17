@@ -15,11 +15,24 @@ databases/
     └── _extracted/                # working dataset copies (do not delete)
 ```
 
+## Environment setup
+
+From the project root:
+
+```bash
+python3 -m venv .venv
+source .venv/bin/activate   # On Windows: .venv\Scripts\activate
+pip install -r requirements.txt
+python -m ipykernel install --user --name jordan-smr --display-name "Python (jordan-smr)"
+```
+
+Then in Jupyter or VS Code, select the **Python (jordan-smr)** kernel for the notebook.
+
 ## How to run
 
 1. Open `jordan_smr_ml_pipeline.ipynb` in Jupyter or VS Code.
-2. Run all cells from the project root (`databases/`).
-3. All outputs are saved to `output/final/`.
+2. Select kernel **Python (jordan-smr)** (or ensure the notebook runs from the project root).
+3. Run all cells. All outputs are saved to `output/final/`.
 
 ## Current status
 
