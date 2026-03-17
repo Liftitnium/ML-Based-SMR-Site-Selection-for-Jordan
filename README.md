@@ -55,3 +55,13 @@ Then in Jupyter or VS Code, select the **Python (jordan-smr)** kernel for the no
 - Eliminated by population: 1,596
 - Eliminated by permanent water: 1,531
 - Eliminated by slope: 1,348
+
+## Citation
+If you use this work, please cite:
+Nasrallah, R. (2026). A Multi-Criteria Machine Learning Framework 
+for SMR Site Selection in Water-Scarce Economies: A Jordan Case Study. 
+IE University, Madrid.
+
+## Contact
+Raji Nasrallah — IE University  
+GitHub: github.com/Liftitnium
