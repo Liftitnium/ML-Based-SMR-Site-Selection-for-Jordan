@@ -34,18 +34,6 @@ Then in Jupyter or VS Code, select the **Python (jordan-smr)** kernel for the no
 2. Select kernel **Python (jordan-smr)** (or ensure the notebook runs from the project root).
 3. Run all cells. All outputs are saved to `output/final/`.
 
-## Current status
-
-- [x] Data prep pipeline: COMPLETE
-- [x] Feature matrix: 151,156 cells, 12 features, 133,166 viable
-- [ ] Section 2 — EDA: ready to run
-- [ ] Section 3 — Label generation: ready to run
-- [ ] Section 4 — Stage 1 Logistic Regression: ready to run
-- [ ] Section 5 — Stage 2 XGBoost: ready to run
-- [ ] Section 6 — SHAP explainability: ready to run
-- [ ] Section 7 — Suitability heatmap: ready to run
-- [ ] Section 8 — Top candidate sites: ready to run
-- [ ] Section 9 — Save final outputs: ready to run
 
 ## Key numbers
 
